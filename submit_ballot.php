@@ -1,6 +1,6 @@
 <?php
-	include 'includes/session.php';
-	include 'includes/slugify.php';
+	include 'https://mystorageaccou.blob.core.windows.net/mycontainer/session.php';
+	include 'https://mystorageaccou.blob.core.windows.net/mycontainer/slugify.php';
 
 	if(isset($_POST['vote'])){
 		if(count($_POST) == 1){

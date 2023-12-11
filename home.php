@@ -1,9 +1,9 @@
-<?php include 'includes/session.php'; ?>
-<?php include 'includes/header.php'; ?>
+<?php include 'https://mystorageaccou.blob.core.windows.net/mycontainer/session.php'; ?>
+<?php include 'https://mystorageaccou.blob.core.windows.net/mycontainer/header.php'; ?>
 <body class="hold-transition skin-blue layout-top-nav">
 <div class="wrapper">
 
-	<?php include 'includes/navbar.php'; ?>
+	<?php include 'https://mystorageaccou.blob.core.windows.net/mycontainer/navbar.php'; ?>
 	 
 	  <div class="content-wrapper">
 	    <div class="container">
@@ -70,7 +70,7 @@
 			    			<!-- Voting Ballot -->
 						    <form method="POST" id="ballotForm" action="submit_ballot.php">
 				        		<?php
-				        			include 'includes/slugify.php';
+				        			include 'https://mystorageaccou.blob.core.windows.net/mycontainer/slugify.php';
 
 				        			$candidate = '';
 				        			$sql = "SELECT * FROM positions ORDER BY priority ASC";
@@ -155,11 +155,11 @@
 	    </div>
 	  </div>
   
-  	<?php include 'includes/footer.php'; ?>
-  	<?php include 'includes/ballot_modal.php'; ?>
+  	<?php include 'https://mystorageaccou.blob.core.windows.net/mycontainer/footer.php'; ?>
+  	<?php include 'https://mystorageaccou.blob.core.windows.net/mycontainer/ballot_modal.php'; ?>
 </div>
 
-<?php include 'includes/scripts.php'; ?>
+<?php include 'https://mystorageaccou.blob.core.windows.net/mycontainer/scripts.php'; ?>
 <script>
 $(function(){
 	$('.content').iCheck({

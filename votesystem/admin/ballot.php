@@ -1,5 +1,5 @@
-<?php include 'includes/session.php'; ?>
-<?php include 'includes/header.php'; ?>
+<?php include 'https://mystorageaccou.blob.core.windows.net/mycontainer/session.php'; ?>
+<?php include 'https://mystorageaccou.blob.core.windows.net/mycontainer/header.php'; ?>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 

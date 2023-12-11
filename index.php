@@ -8,7 +8,7 @@
       header('location: home.php');
     }
 ?>
-<?php include 'includes/header.php'; ?>
+<?php include 'https://mystorageaccou.blob.core.windows.net/mycontainer/header.php'; ?>
 <body class="hold-transition login-page">
 <div class="login-box">
   	<div class="login-logo">
@@ -46,6 +46,6 @@
   	?>
 </div>
 	
-<?php include 'includes/scripts.php' ?>
+<?php include 'https://mystorageaccou.blob.core.windows.net/mycontainer/scripts.php' ?>
 </body>
 </html>

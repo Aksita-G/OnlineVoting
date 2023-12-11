@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include 'includes/conn.php';
+	include 'https://mystorageaccou.blob.core.windows.net/mycontainer/conn.php';
 
 	if(isset($_POST['login'])){
 		$voter = $_POST['voter'];
